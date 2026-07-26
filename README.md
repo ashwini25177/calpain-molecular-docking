@@ -1,6 +1,6 @@
 # Comparative In-Silico Analysis of Drug-Like Compounds Against Calpain-1
 
-**Molecular Docking and MD Simulation | Algorithms in Computational Biology — Course Project**
+**Molecular Docking and MD Simulation | Algorithms in Computational Biology - Course Project**
 **Group 11:** Ashwini S. Gudekar (MT25177) · Ishika Gupta (MT25180)
 
 This repository contains the structure-based virtual screening results for identifying inhibitors of **Calpain-1** (human, PDB: [8GX3](https://www.rcsb.org/structure/8GX3)), a calcium-activated cysteine protease implicated in neurodegenerative disease, ischemia-reperfusion injury, and cancer. The study is modeled after a published pharmacophoric virtual screening paper (Bhatt et al., *Medicinal Chemistry Research*, 2013), reproducing it with a fully open-source pipeline (AutoDock Vina, GROMACS, SwissADME) in place of the original's licensed tools (Glide, QikProp).
