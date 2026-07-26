@@ -5,7 +5,7 @@
 
 This repository contains the structure-based virtual screening results for identifying inhibitors of **Calpain-1** (human, PDB: [8GX3](https://www.rcsb.org/structure/8GX3)), a calcium-activated cysteine protease implicated in neurodegenerative disease, ischemia-reperfusion injury, and cancer. The study is modeled after a published pharmacophoric virtual screening paper (Bhatt et al., *Medicinal Chemistry Research*, 2013), reproducing it with a fully open-source pipeline (AutoDock Vina, GROMACS, SwissADME) in place of the original's licensed tools (Glide, QikProp).
 
-> **Scope note:** This repo currently holds the **docking-stage outputs** (receptor prep, docked poses, complexes, interaction diagrams) for the three ligands with full result files available: MDL-28170 (reference), CID 2974355, and CID 6915837. The full project additionally includes a 28-compound discovery screen and 20 ns GROMACS MD simulations for the top two hits — summarized below from the project report, with a note on what to add once those raw files are ready.
+> **Scope note:** This repo currently holds the **docking-stage outputs** (receptor prep, docked poses, complexes, interaction diagrams) for the three ligands with full result files available: MDL-28170 (reference), CID 2974355, and CID 6915837. The full project additionally includes a 28-compound discovery screen and 20 ns GROMACS MD simulations for the top two hits - summarized below from the project report, with a note on what to add once those raw files are ready.
 
 ---
 
