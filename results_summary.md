@@ -4,17 +4,16 @@
 
 Ligand Efficiency (LE) = |ΔG| / NHA (number of heavy atoms).
 
-| Ligand | ΔG (kcal/mol) | NHA | LE | Type | Files in this repo |
-|---|---|---|---|---|---|
+| Ligand | ΔG (kcal/mol) | NHA | LE | Type |
+|---|---|---|---|---|
 | CID-2974355 | **-7.2** | 25 | 0.288 | Discovery — **Champion** |
-| CID-15308693 | -7.1 | 27 | 0.263 | Discovery | 
-| CID-275591 | -6.9 | 30 | 0.230 | Discovery | 
-| CID-6915837 | -6.9 | 28 | 0.246 | Discovery | 
-| MDL-28170 | -6.7 | 28 | 0.239 | Known inhibitor (reference) | 
-| E64d | -6.2 | 29 | 0.214 | Known inhibitor | 
-| ALLN | -5.6 | 21 | 0.267 | Known inhibitor | 
-| Calpeptin | -5.6 | 19 | 0.295 | Known inhibitor | 
-
+| CID-15308693 | -7.1 | 27 | 0.263 | Discovery |
+| CID-275591 | -6.9 | 30 | 0.230 | Discovery |
+| CID-6915837 | -6.9 | 28 | 0.246 | Discovery |
+| MDL-28170 | -6.7 | 28 | 0.239 | Known inhibitor (reference) |
+| E64d | -6.2 | 29 | 0.214 | Known inhibitor |
+| ALLN | -5.6 | 21 | 0.267 | Known inhibitor |
+| Calpeptin | -5.6 | 19 | 0.295 | Known inhibitor |
 **Key finding (report):** The top novel candidates (CID-2974355, CID-15308693) outperform all known inhibitors by 0.5–1.6 kcal/mol.
 
 > **Note on discrepancy:** the presentation slide deck lists CID-6915837 at ΔG = -7.1 kcal/mol (NHA 29, LE 0.245) rather than -6.9/28/0.246 as in the written report — likely two slightly different scoring runs or a rounding/typo between the two documents. Worth reconciling against the original `docking_LE_summary.csv` before this becomes the citable number.
